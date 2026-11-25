@@ -1,0 +1,23 @@
+.image_card_list{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .shape_image_card{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .image_card{
+        width: 230px;
+        height: 230px;
+        border-radius: 50px;
+    }
+
+    .div_actions{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+}

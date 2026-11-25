@@ -1,0 +1,8 @@
+.shape_image_card{
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    border: 3px solid darkgoldenrod;
+    padding: 15px;
+    gap: 8px;
+}
