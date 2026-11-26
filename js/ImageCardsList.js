@@ -18,4 +18,8 @@ export class ImageCardsList {
 
         return `<div class="image_card_list">${rendu}</div>`
     }
+
+    trouver(id) {
+        return this.ImageCards.find(imageCard => String(imageCard.id) === id)
+    }
 }

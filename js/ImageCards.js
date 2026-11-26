@@ -14,8 +14,8 @@ export class ImageCards {
                 <div>${this.nom}</div>
                 <div>${this.prix} CFA</div>
                 <div class="div_actions">
-                    <button>+</button>
-                    <button>-</button>
+                    <button data-action="ajouter" data-id="${this.id}">+</button>
+                    <button data-action="retirer" data-id="${this.id}">-</button>
                 </div>
             </div>
         `
